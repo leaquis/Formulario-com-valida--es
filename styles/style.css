@@ -39,9 +39,9 @@ input, textarea {
     font-size: 1rem;
 }
 
-.error-message {
+.error_message {
     color: #e21111;
-    margin-top: 0.2rem;
+    margin-top: 0.5rem;
 }
 
 button {
@@ -57,4 +57,9 @@ button {
 
 button:hover {
     background-color: #132f63;
+}
+
+.error input,
+.error textarea {
+    border-color: #e21111;
 }
